@@ -1,0 +1,47 @@
+<header>
+    <div class="info">
+        <div>
+            <i class="fas fa-phone"><span>516-248-0750</span></i>
+            <i class="fas fa-envelope"><span>hrm@hrmengineering.com</span></i>
+        </div>
+    </div>
+    <div [class]="header1"> 
+        <div class="header-logo">
+            <img src="/assets/img/HRM-Logo-Colored-SVG.svg" alt="HRM Logo" class="img-try">
+        </div>
+        <ul>
+            <li>
+                <a routerLink="/" [routerLinkActiveOptions]="{exact : true}" routerLinkActive="active-nav">Home</a>
+            </li>
+            <li>
+                <a routerLink="/projects" routerLinkActive="active-nav">
+                    Projects
+                    <i class="fas fa-angle-down"></i>
+                </a>
+                <ul>
+                    <li><a href="#">Commercial Office Buildings</a></li>
+                    <li><a href="#">Places of Assembly</a></li>
+                    <li><a href="#">Schools</a></li>
+                    <li><a href="#">Institutional / Health Care</a></li>
+                    <li><a href="#">Multi-Storey / Family Dwelling</a></li>
+                    <li><a href="#">Financial</a></li>
+                </ul>
+            </li>
+            <li>
+                <a routerLink="/services" routerLinkActive="active-nav">
+                    Services
+                    <i class="fas fa-angle-down"></i>
+                </a>
+                <ul>
+                    <li><a href="#">Scope of Services</a></li>
+                    <li><a href="#">Mechanical</a></li>
+                    <li><a href="#">Electrical</a></li>
+                    <li><a href="#">Plumbing & Fire Protection System</a></li>
+                </ul>
+            </li>
+            <li><a routerLink="/team" routerLinkActive="active-nav">Our Team</a></li>
+            <li><a routerLink="/about" routerLinkActive="active-nav">About</a></li>
+            <li><a routerLink="/contact-us" routerLinkActive="active-nav">Contact Us</a></li>
+        </ul>
+    </div>
+</header>

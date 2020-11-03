@@ -1,0 +1,11 @@
+<!-- <h3>{{ currentProject }}</h3> -->
+<div class="project-list-wrapper">
+    <div class="project-list-card" *ngFor="let list of projectList; index as i">
+        <!-- <a [routerLink]="project['url']">{{ project['Project-Name'] }}</a> -->
+        <div class="img-wrapper">
+            <img [src]="list.src" alt="">
+        </div>
+        <h1>{{ list.title }}</h1>
+        <p>{{ list.desc }}</p>
+    </div>
+</div>

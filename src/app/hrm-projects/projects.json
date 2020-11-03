@@ -1,0 +1,122 @@
+[
+    {
+        "Project-Name" : "Commercial Office Buildings",
+        "Project-List" : [
+            {
+                "id" : "1",
+                "title" : "COB 1",
+                "desc" : "desc 1"
+            }, 
+            {
+                "id" : "2",
+                "title" : "COB 2",
+                "desc" : "desc 2"
+            },
+            {
+                "id" : "3",
+                "title" : "COB 3",
+                "desc" : "desc 3"
+            }
+        ]
+    },
+    {
+        "Project-Name" : "Places of Assembly",
+        "Project-List" : [
+            {
+                "id" : "1",
+                "title" : "COB 1",
+                "desc" : "desc 1"
+            }, 
+            {
+                "id" : "2",
+                "title" : "COB 2",
+                "desc" : "desc 2"
+            },
+            {
+                "id" : "3",
+                "title" : "COB 3",
+                "desc" : "desc 3"
+            }
+        ]
+    },
+    {
+        "Project-Name" : "Schools",
+        "Project-List" : [
+            {
+                "id" : "1",
+                "title" : "COB 1",
+                "desc" : "desc 1"
+            }, 
+            {
+                "id" : "2",
+                "title" : "COB 2",
+                "desc" : "desc 2"
+            },
+            {
+                "id" : "3",
+                "title" : "COB 3",
+                "desc" : "desc 3"
+            }
+        ]
+    },
+    {
+        "Project-Name" : "Institutional / Health Care",
+        "Project-List" : [
+            {
+                "id" : "1",
+                "title" : "COB 1",
+                "desc" : "desc 1"
+            }, 
+            {
+                "id" : "2",
+                "title" : "COB 2",
+                "desc" : "desc 2"
+            },
+            {
+                "id" : "3",
+                "title" : "COB 3",
+                "desc" : "desc 3"
+            }
+        ]
+    },
+    {
+        "Project-Name" : "Multi-Storey / Family Dwelling",
+        "Project-List" : [
+            {
+                "id" : "1",
+                "title" : "COB 1",
+                "desc" : "desc 1"
+            }, 
+            {
+                "id" : "2",
+                "title" : "COB 2",
+                "desc" : "desc 2"
+            },
+            {
+                "id" : "3",
+                "title" : "COB 3",
+                "desc" : "desc 3"
+            }
+        ]
+    },
+    {
+        "Project-Name" : "Financial",
+        "Project-List" : [
+            {
+                "id" : "1",
+                "title" : "COB 1",
+                "desc" : "desc 1"
+            }, 
+            {
+                "id" : "2",
+                "title" : "COB 2",
+                "desc" : "desc 2"
+            },
+            {
+                "id" : "3",
+                "title" : "COB 3",
+                "desc" : "desc 3"
+            }
+        ]
+    }
+]

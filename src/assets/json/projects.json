@@ -1,0 +1,194 @@
+[
+    {
+        "Project-Name" : "Commercial Office Buildings",
+        "url" : "commercial-office-buildings",
+        "Project-List" : [
+            {
+                "id" : "1",
+                "title" : "Poolscape Villa",
+                "desc" : "Aqaba, Jordan",
+                "src" : "/assets/img/projects/commercial-office-bldgs/1.jpg"
+            }, 
+            {
+                "id" : "2",
+                "title" : "European Lard Station",
+                "desc" : "Strasbourg, France",
+                "src" : "/assets/img/projects/commercial-office-bldgs/2.jpg"
+            },
+            {
+                "id" : "3",
+                "title" : "Yabroudi Villa",
+                "desc" : "Dubai, United Arab Emirates",
+                "src" : "/assets/img/projects/commercial-office-bldgs/3.jpg"
+            },
+            {
+                "id" : "4",
+                "title" : "Cultural Complex Centre",
+                "desc" : "Muscat, Sultanate of Oman",
+                "src" : "/assets/img/projects/commercial-office-bldgs/4.jpg"
+            },
+            {
+                "id" : "5",
+                "title" : "Dalbourne Villa",
+                "desc" : "Guangzhou, China",
+                "src" : "/assets/img/projects/commercial-office-bldgs/5.jpg"
+            },
+            {
+                "id" : "6",
+                "title" : "Amman Rotana Hotel",
+                "desc" : "Amman, Jordan",
+                "src" : "/assets/img/projects/commercial-office-bldgs/6.jpg"
+            },
+            {
+                "id" : "7",
+                "title" : "Alvar Alto Museum",
+                "desc" : "Casablanca, Morocco",
+                "src" : "/assets/img/projects/commercial-office-bldgs/7.jpg"
+            },
+            {
+                "id" : "8",
+                "title" : "Dance & Music Theatre",
+                "desc" : "Perth, Australia",
+                "src" : "/assets/img/projects/commercial-office-bldgs/8.jpg"
+            },
+            {
+                "id" : "9",
+                "title" : "French Embassy",
+                "desc" : "Casablanca, Morocco",
+                "src" : "/assets/img/projects/commercial-office-bldgs/9.jpg"
+            }
+        ]
+    },
+    {
+        "Project-Name" : "Places of Assembly",
+        "url" : "places-of-assembly",
+        "Project-List" : [
+            {
+                "id" : "1",
+                "title" : "Parsons Blvd OFFICE tower",
+                "desc" : "Casablanca, Morocco",
+                "src" : "/assets/img/projects/places-of-assembly/1.jpg"
+            }, 
+            {
+                "id" : "2",
+                "title" : "Crescent Street Medical Center",
+                "desc" : "Strasbourg, France",
+                "src" : "/assets/img/projects/places-of-assembly/2.jpg"
+            }, 
+            {
+                "id" : "3",
+                "title" : "44-15 College Point Blvd",
+                "desc" : "Muscat, Sultanate of Oman",
+                "src" : "/assets/img/projects/places-of-assembly/3.jpg"
+            }, 
+            {
+                "id" : "4",
+                "title" : "146-17 NORTHERN BLVD",
+                "desc" : "Guangzhou, China",
+                "src" : "/assets/img/projects/places-of-assembly/4.jpg"
+            }, 
+            {
+                "id" : "5",
+                "title" : "163-07 72nd Ave, Fresh Meadows",
+                "desc" : "Amman, Jordan",
+                "src" : "/assets/img/projects/places-of-assembly/5.jpg"
+            }, 
+            {
+                "id" : "6",
+                "title" : "169-13 90 Avenue Apartment",
+                "desc" : "Guangzhou, China",
+                "src" : "/assets/img/projects/places-of-assembly/6.jpg"
+            }, 
+            {
+                "id" : "7",
+                "title" : "Bedford Avenue Apartment, Bronx",
+                "desc" : "11 Story 19 units Mixed-Use Building.",
+                "src" : "/assets/img/projects/places-of-assembly/7.jpg"
+            }
+        ]
+    },
+    {
+        "Project-Name" : "Schools",
+        "url" : "schools",
+        "Project-List" : [
+            {
+                "id" : "1",
+                "title" : "COB 1",
+                "desc" : "desc 1"
+            }, 
+            {
+                "id" : "2",
+                "title" : "COB 2",
+                "desc" : "desc 2"
+            },
+            {
+                "id" : "3",
+                "title" : "COB 3",
+                "desc" : "desc 3"
+            }
+        ]
+    },
+    {
+        "Project-Name" : "Institutional / Health Care",
+        "url" : "institutional-health-care",
+        "Project-List" : [
+            {
+                "id" : "1",
+                "title" : "COB 1",
+                "desc" : "desc 1"
+            }, 
+            {
+                "id" : "2",
+                "title" : "COB 2",
+                "desc" : "desc 2"
+            },
+            {
+                "id" : "3",
+                "title" : "COB 3",
+                "desc" : "desc 3"
+            }
+        ]
+    },
+    {
+        "Project-Name" : "Multi-Storey / Family Dwelling",
+        "url" : "multi-storey-family-dwelling",
+        "Project-List" : [
+            {
+                "id" : "1",
+                "title" : "COB 1",
+                "desc" : "desc 1"
+            }, 
+            {
+                "id" : "2",
+                "title" : "COB 2",
+                "desc" : "desc 2"
+            },
+            {
+                "id" : "3",
+                "title" : "COB 3",
+                "desc" : "desc 3"
+            }
+        ]
+    },
+    {
+        "Project-Name" : "Financial",
+        "url" : "financial",
+        "Project-List" : [
+            {
+                "id" : "1",
+                "title" : "COB 1",
+                "desc" : "desc 1"
+            }, 
+            {
+                "id" : "2",
+                "title" : "COB 2",
+                "desc" : "desc 2"
+            },
+            {
+                "id" : "3",
+                "title" : "COB 3",
+                "desc" : "desc 3"
+            }
+        ]
+    }
+]

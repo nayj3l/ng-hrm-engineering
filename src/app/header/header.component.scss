@@ -1,0 +1,250 @@
+@import '~../variables';
+
+header {
+    width: 100%;
+    position: relative;
+    z-index: 80;
+    height: 12rem;
+
+    .info {
+        height: 40px;
+        position: relative;
+        z-index: 90;
+
+        & > * {
+            
+            @include tablet(){
+                justify-content: center;
+                padding: 0;
+            }
+
+            width: 100%;
+            position: fixed;
+            background: $primary;
+            height: 4rem;
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+            color: white;
+            gap: 3rem;
+            padding-right: 11.5rem;
+    
+            i {
+                font-size: 1.5rem;
+    
+                span {
+                    margin-left: 1rem;
+                    font-size: 1.3rem;
+                    font-family: proxima-light;
+                    font-family: 'Sintony', sans-serif;
+                    font-weight: 400;
+                }
+            }
+        }
+    }
+
+    .header-1 {
+        background: $alt-bg;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, .5);
+        position: fixed;
+        display: flex;
+        // flex-wrap: wrap;
+        width: 100%;
+        transition: .2s linear;
+        height: 8rem;
+        padding: 0 10rem;
+        justify-content: space-between;
+
+        @include mobile(){
+            justify-content: center;
+        }
+
+        .header-logo {
+            max-width: 600px;
+            height: 100%;
+            width: 100%;
+            transition: .3s;
+            min-width: 350px;
+            
+            img {
+                height: 100%;
+                width: 100%;
+                padding: 1rem;
+                object-fit: contain;
+            }
+        }
+        
+        // Parent list
+        & > ul {
+            margin: 0;
+            display: flex;
+            align-items: center;
+            list-style: none;
+            justify-content: flex-end;
+            gap: .2rem;
+            
+            @include mobile {
+                display: none;
+            }
+
+                
+            i {
+                color: $dark;
+                transition: .3s;
+            }
+
+            // Parent list
+            & > li {
+                position: relative;
+                display: flex;  
+                justify-content: center;
+                align-items: center;
+                height: 100%;
+
+                & > a {
+                    outline: none;
+                    display: flex;
+                    align-items: center;
+                    color: $dark;
+                    height: 100%;
+                    white-space: nowrap;
+                    padding: 1.5rem 1.5rem;
+                    text-decoration: none;
+                    font-size: 1.4rem;
+                    transition: .3s linear;
+                    // font-family: proxima;
+                    font-family: 'Sintony', sans-serif;
+                    font-weight: 400;
+
+                    i {
+                        margin-left: 1rem;
+                    }
+                }
+        
+                // Submenu
+                ul {
+                    padding: 0;
+                    display: none;
+                    background: $primary;
+                    position: absolute;
+                    left: 0;
+                    top: 100%;
+                    list-style: none;
+                    z-index: 90;
+
+                    li {
+
+                        a {
+                            text-decoration: none;
+                            font-size: 1.3rem;
+                            white-space: nowrap;
+                            color: white;
+                            display: block;
+                            padding: 1rem;
+                            transition: .3s;
+                            border-bottom: 1px solid rgba(0, 0, 0, .5);
+                            // font-family: proxima-light;
+                            font-family: 'Sintony', sans-serif;
+                            font-weight: 400;
+                        }
+
+                        &:hover {
+                            a {
+                                background: $accent;
+                            }
+                            
+                        }
+                    }
+                }
+
+                &:hover {
+
+                    ul {
+                        display: block;
+                    }
+
+                    &::before {
+                        opacity: 1;
+                    }
+
+                    & > a {
+                        color: $primary;
+                    }
+
+                    i {
+                        color: $primary;
+                    }
+                }
+
+                &::before {
+                    content: "";
+                    opacity: 0;
+                    position: absolute;
+                    height: 3px;
+                    width: 100%;
+                    left: 0;
+                    bottom: 0;
+                    // background-color: $primary;
+                    transition: .3s linear;
+                }
+            }
+
+            .active-nav {
+                color: $primary;
+                position: relative;
+                
+                &::before {
+                    content: "";
+                    position: absolute;
+                    height: 3px;
+                    width: 100%;
+                    left: 0;
+                    bottom: 0;;
+                    background-color: $primary;
+                }
+            }
+
+            @include mobile {
+                display: none;
+            }
+        }
+    }
+
+    .header-2 {
+        // top: 0;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, .5);
+        // transition: .4s ease-in-out;
+
+        // .header-logo {
+        //     padding: 1rem 0;
+        //     box-sizing: border-box;
+        //     display: flex;
+        //     align-items: center;
+        //     max-width: 600px;
+        //     height: 100%;
+        //     width: 90%;
+
+        //     img {
+        //         display: block;
+        //         height: 85%;
+        //         padding: 0;
+        //         width: 100%;
+        //         object-fit: contain;
+        //     }
+        // }
+
+        // Parent ul
+        & > ul {
+            & > li {
+                height: 100%;
+
+                i {
+                    color: $dark;
+                }
+                a {
+                    color: $dark;
+                }
+            }
+        }
+    }
+}
